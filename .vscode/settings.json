@@ -1,7 +1,17 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-    "source.organizeImports": "explicit",
-    "source.sortMembers": "explicit"
-  }
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascriptreact"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    "className\\s*=\\s*[\"'`]([^\"'`]*)[\"'`]", 
+    "tw\\s*=\\s*[\"'`]([^\"'`]*)[\"'`]"
+  ],
+   "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.suggest.showWords": true,
+  "editor.suggest.showSnippets": true,
+  "editor.suggestSelection": "first"
+
 }
